@@ -19,4 +19,9 @@ In order to train the model, the video data has to be converted to the image dat
 Kindly note that these pickle files now contain the facial image data. One array corresponds to a single video. 
 
 The advantage of using this technique is we have to do video-image conversion only once and then we have the image data. Now whenever we need to train the model, we can directly access the image data stored as pickle files. This saves time in the longer run. Secondly, the data is not lost if Colab's session accidently terminates. 
-Colab Notebook for extracting images from videos: 
+Colab Notebook for extracting images from videos: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anasali0006/FaceForesics-Deepfakes-Detection/blob/main/Video_to_Images.ipynb)
+
+
+# Training
+The training is carried out using Tensorflow. Colab Notebook for Training:  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anasali0006/FaceForesics-Deepfakes-Detection/blob/main/Training.ipynb)
+
